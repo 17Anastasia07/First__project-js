@@ -1,0 +1,128 @@
+body {
+    height: 78.5vh;
+    background: linear-gradient(to bottom right, rgb(252, 252, 252), rgb(124, 124, 124));
+} 
+.login__forma {
+    margin: 0 auto;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 0 0 10px #000;
+}
+.form__title {
+    text-align: center;
+}
+.label {
+    margin: 20px 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+.username {
+}
+.email {
+    
+}
+.parol {
+    
+}
+.tel {
+    
+}
+.input {
+    margin: 0 30px;
+    border-bottom: 1px solid #000;
+    height: 20px;
+}
+input {
+    border: none;
+}
+
+.form__but {
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 30px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgb(90, 159, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border: 1px solid rgb(19, 2, 255);
+    font-size: 15px;
+    cursor: pointer;
+}
+.form__modal-1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+    border: 1px solid #000;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.form__modal-1.oppa {
+    opacity: 1;
+}
+.down {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+    
+}
+.form__modal-2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+    border: 1px solid #000;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.form__modal-2.opp {
+    opacity: 1;
+}
+.form__modal-3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+    border: 1px solid #000;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.form__modal-3.op {
+    opacity: 1;
+}
+.form__modal-4 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+    border: 1px solid #000;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.form__modal-4.o {
+    opacity: 1;
+}

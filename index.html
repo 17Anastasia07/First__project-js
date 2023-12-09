@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+    <body>
+        <header class="header">
+            <div class="header__login">Credit Card</div>
+            <div class="header__name"></div>
+            <button type="button" class="header__but">Register</button>
+        </header>
+
+
+        <div class="bank__card">
+            <div class="first__part-card">
+                <p class="first__part-text">Credit card</p>
+                <p class="first__part-text">SmartBank</p>
+            </div>      
+            <img class="first__part-ikon" src="./img/card.png" alt="" width="50px">
+            <div class="first__part-bignum">
+                <div class="numb_1">****</div>
+                &nbsp;
+                <div class="numb_2">****</div>
+                &nbsp;
+                <div class="numb_3">****</div>
+                &nbsp;
+                <div class="numb_4">****</div>
+            </div>
+            <div class="second__part-card">
+                <div class="CVV__block">
+                    <p class="second__part-text">CVV</p>
+                    <p class="CVV">***</p>
+                </div>
+                <p class="second__part-text data">Строк дії</p>
+            </div>
+            <div class="name__surname">  
+                <p class="myname__card">Ім'я</p> 
+                <p class="mysurname__card">Прізвище</p>
+            </div> 
+        </div>
+
+        <div class="forma hide">
+            <div class="form__line">
+                <p class="forma__text">Отримайте свій унікальний номер карти</p>
+                <button class="forma__knopka number__kn">Отримати</button>
+            </div>
+            <div class="form__line">
+                <p class="forma__text">Отримайте свій унікальний CVV код</p>
+                <button class="forma__knopka CVV__r">Отримати</button>
+            </div>
+            <div class="form__line">
+                <p class="forma__text">Дата отримання</p>
+                <input class="forma__knopka my__data" type="date" id="" value="" />
+            </div>
+            <div class="form__line">
+                <p class="forma__text">Ім'я</p>
+                <input class="forma__knopka my__name" type="text" id="" value="" />
+            </div>
+            <div class="form__line">
+                <p class="forma__text">Прізвище</p>
+                <input class="forma__knopka my__surname" type="text" id="" value="" />
+            </div>
+            <button class="save__button">Зберегти</button>
+        </div>
+    <div class="after__button">
+        <div class="modalka">
+            <button type="button" class="btn-close">
+                <img  src="./img/cross_3926191.png" alt="">
+            </button>
+            <p class="modalka__text">Вітаю! Ваша карта готова</p>
+            <img class="modalka__snep" src="./img/Знімок екрана 2023-11-25 115442.png" alt="">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    </body>
+</html>

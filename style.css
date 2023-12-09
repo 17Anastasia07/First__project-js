@@ -1,0 +1,215 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+} */
+body {
+    background: linear-gradient(to bottom right, rgb(252, 252, 252), rgb(124, 124, 124));
+} 
+.bank__card {
+    margin: 0 auto;
+    max-width: 500px;
+    /* height: 300px; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url(https://wallpapercave.com/wp/wp10717944.jpg);
+}
+
+.first__part-card {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.first__part-text {
+    font-weight: 600;
+}
+.first__part-ikon {
+    padding: 10px 20px;
+}
+.first__part-bignum {
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px;
+    display: flex;
+}
+
+.second__part-card {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.second__part-text {
+    font-style: italic;
+}
+.CVV__block{
+    display: flex;
+}
+.myname__card {
+    color: white;
+    padding: 0px 20px;
+    margin-top: -10px;
+    padding-bottom: 30px;
+}
+.mysurname__card {
+    color: white;
+    margin-top: -10px;
+    padding-bottom: 30px;
+
+}
+.header__but {
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.name__surname {
+    display: flex;
+}
+
+.forma {
+    border: 1px solid #000;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: 10px 5px 10px #6f6f6fcb;
+}
+.hide {
+    position: relative;
+    /* left: -2000px; */
+    opacity: 0;
+    transition: 1s;
+}
+.hide.block {
+    /* left: 0; */
+    opacity: 1;
+}
+.form__line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+.forma__text {
+     font-family:'Courier New', Courier, monospace;
+}
+.forma__knopka {
+    height: 25px;
+    border-radius: 5px;
+    background-color: #5e5e5ec4;
+    color: aliceblue;
+    border: 1px solid #454545;
+    text-align: center;
+    padding: 0 4px;
+}
+.save__button {
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000;
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.save__button:hover {
+    box-shadow: 0 0 10px #ffffff;
+    transform: scale(1.1);
+}
+.after__button{
+    margin: 0 auto;
+    width: 500px;
+}
+.modalka {
+    align-items: center;
+    width: 500px;
+    position: fixed;
+    top: -500px;
+    transition: 1s;
+    background-color: rgb(237, 237, 237);
+    border-radius: 20px;
+}
+.modalka.active {
+    top: 13%;
+}
+.modalka__text {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modalka__snep {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.btn-close {
+    border-radius: 0px;
+    border: 0px solid #000;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.modalka.passive {
+    top: -500px;
+}
+
+.header {
+    max-width: 100%;
+    background-color: #000;
+    top: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.header__login {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+.header__name {
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header__but {
+}
+
+@media(max-width: 550px) {
+    .header__login {
+        font-size: 20px;
+    }
+    .header__name {
+        font-size: 15px;
+    }
+    .after__button {
+        width: 400px;
+    }
+    .modalka {
+        width: 400px;
+    }
+}
+@media(max-width: 450px) {
+    .after__button {
+        width: 300px;
+    }
+    .modalka {
+        width: 300px;
+    }
+}
