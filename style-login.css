@@ -71,12 +71,18 @@ input {
     opacity: 1;
 }
 .down {
-    padding-top: 20px;
+/*     padding-top: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin:  0 auto;
-    
+    animation: tate 1.5s linear infinite;
+}
+@keyframes tate {
+    0% {
+        transform: rotate(-360deg);
+        
+    }
 }
 .form__modal-2 {
     position: absolute;
